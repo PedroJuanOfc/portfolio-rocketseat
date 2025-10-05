@@ -1,0 +1,68 @@
+.info {
+  height: 46.875rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--gray-500);
+  background-image: url(../assets/backgrounds/Background_Intro.png);
+  background-size: cover;
+
+  .profile-text {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 42.5rem;
+
+    span {
+      color: var(--red);
+    }
+
+    h1 {
+      font: var(--title-lg);
+      margin-bottom: 1.25rem;
+    }
+
+    h2 {
+      font: var(--subtitle);
+      margin-bottom: 0.5rem;
+      color: var(--gray-200);
+    }
+
+    p {
+      color: var(--gray-300);
+      font: var(--text-sm);
+    }
+  }
+
+  .profile img {
+    width: 7rem;
+    margin-bottom: 3rem;
+  }
+
+  .badges {
+    display: flex;
+    gap: 1rem;
+    margin-top: 5rem;
+  }
+
+  .badges li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem 1rem;
+    background-color: var(--gray-400);
+    border-radius: 100rem;
+  }
+
+  img.badge {
+    width: 1.5rem;
+  }
+
+  .arrow {
+    margin-top: 5.875rem;
+    width: 2rem;
+  }
+}
