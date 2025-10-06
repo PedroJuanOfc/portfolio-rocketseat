@@ -31,3 +31,7 @@
 
   color: var(--gray-100);
 }
+
+body {
+  background-color: var(--gray-500);
+}
